@@ -24,7 +24,7 @@ h2#frames {
 h2#paint {
     background-color: skyblue;
 } 
-#price {
+.price {
     font-weight: bold;
     color: blue;
 }
