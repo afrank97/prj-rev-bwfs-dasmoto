@@ -1,4 +1,7 @@
-h1, h2, p {
+h1,
+h2,
+p,
+article {
     font-family: Helvetica;
 }
 
@@ -11,20 +14,72 @@ h1 {
     }
 
 h2 {
+    display: inline-block;
     font-size: 32px;
     font-weight: bold;
+    font-style: italic;
     color: white;
+    line-height: 14px;
+    margin-left: 90px;
+    padding: 20px 40px 20px 20px;
+    border-radius: 0px 10px 10px 10px;
+    position: relative;
+    top: 2%;
+    opacity: 0.80;
 }
-h2#brushes {
+
+#brushes {
     background-color: mediumspringgreen;
 } 
-h2#frames {
+
+#frames {
     background-color: lightcoral;
 } 
-h2#paint {
+
+#paint {
     background-color: skyblue;
 } 
+
+article {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    width: 70%;
+    opacity: 0.75;
+    background-color: white;
+    float: right;
+}
+
 .price {
     font-weight: bold;
     color: blue;
+}
+
+section {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 1000px;
+    margin: 10px auto;
+    position: relative;
+}
+
+#brushimage {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/hacksaw.jpeg");
+    
+}
+
+#frameimage {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/frames.jpeg");
+}
+
+#paintimage {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/finnish.jpeg");
 }
